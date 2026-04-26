@@ -1,0 +1,47 @@
+# --- Identity ---
+id: "1e2fdf5d-9a40-46a2-8b3b-155524ba0206"
+name: "meeting-prep"
+display_name: "Meeting Prep"
+description: "Pulls calendar event details and related email threads via MCP, then produces a personalised prep document with context, talking points, and questions"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/meeting-prep"
+
+# --- Discovery (Hub) ---
+category: "shared"
+tags:
+  - "mcp"
+  - "gmail"
+  - "calendar"
+  - "productivity"
+  - "meetings"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+    - "gmail-mcp"
+    - "google-calendar-mcp"
+  permissions:
+    - "network:googleapis.com"
+    - "network:console.cloud.google.com"
+  data_handling:
+    - "pii"
+
+# --- Contents ---
+contents:
+  skills: 4
+  prompts: 4
+  workflows: 1
+  services: 3
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 12
