@@ -39,9 +39,15 @@ execution:
   - skill: "prep-synthesis"
     step_type: "synthesis"
     prompt: "synthesise-prep"
+    context:
+      voice_profile: ""
+      prep_depth: ""
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-prep"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
 ---
 
 ## Overview
