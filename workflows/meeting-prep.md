@@ -40,14 +40,14 @@ execution:
     step_type: "synthesis"
     prompt: "synthesise-prep"
     context:
-      voice_profile: ""
-      prep_depth: ""
+      voice_profile: "Neutral professional tone"
+      prep_depth: "Standard"
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-prep"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
 ---
 
 ## Overview
