@@ -3,7 +3,7 @@ id: "1e2fdf5d-9a40-46a2-8b3b-155524ba0206"
 name: "meeting-prep"
 display_name: "Meeting Prep"
 description: "Pulls calendar event details and related email threads via MCP, then produces a personalised prep document with context, talking points, and questions"
-version: "1.0.9"
+version: "1.0.10"
 engine: ">=0.1.0"
 
 # --- Attribution ---
