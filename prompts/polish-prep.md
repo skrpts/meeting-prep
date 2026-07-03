@@ -20,6 +20,8 @@ Applies final language polish to the meeting prep document.
 
 {{step.context.voice_profile}}
 
+If a voice profile is provided above, match the polished document to that voice. If not, apply a clear, professional style.
+
 ## Configuration
 
 - **Grammar strictness:** {{step.context.grammar_strictness}}

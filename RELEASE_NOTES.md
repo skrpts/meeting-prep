@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.0.14
+GH#760 — degrade the `polish-prep` voice section cleanly (paired with #704). The `## Voice Profile` block rendered `{{step.context.voice_profile}}` with no adjacent guard, so a profile-less user saw an empty header. Added the "If a voice profile is provided above …" reviewer-note guard, mirroring the guarded sibling `synthesise-prep`. Content-only; no bindings or logic changes.
+
 ## v1.0.13
 GH#745 — declare per-step `output: {name, type}` on every execution step (event/text, context/text, prep_brief/text, polished_prep/text). Lights up the #744 rich flow-map. Content-only; no bindings or logic changes.
 
