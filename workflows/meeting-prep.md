@@ -33,18 +33,22 @@ execution:
   - skill: "event-fetch"
     step_type: "generation"
     prompt: "fetch-event"
+    output: { name: "event", type: "text" }
   - skill: "context-gather"
     step_type: "generation"
     prompt: "gather-context"
+    output: { name: "context", type: "text" }
   - skill: "prep-synthesis"
     step_type: "synthesis"
     prompt: "synthesise-prep"
+    output: { name: "prep_brief", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       prep_depth: "Standard"
   - skill: "language-polish"
     step_type: "content"
     prompt: "polish-prep"
+    output: { name: "polished_prep", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
