@@ -1,7 +1,7 @@
 ---
 type: prompt
 id: synthesise-prep
-title: Synthesise Prep
+title: Synthesize Prep
 description: "Produces a meeting prep document from event details and email context"
 tags: [Production, Calendar]
 connections:
